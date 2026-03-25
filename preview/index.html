@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Home 3 — Cats Luv Us Preview</title>
+<style>
+  /* ── Brand Color System (from catsluvus.com) ─────────────────────────────
+     --brand-navy:      #1a237e   (nav bg, topbar bg, dark sections)
+     --brand-pink:      #DF0082   (buttons, logo, CTAs, accents)
+     --brand-pink-light:#ffd1e8   (soft pink text / tint)
+     --brand-white:     #ffffff
+     --brand-black:     #000000
+     --brand-text:      #333333
+     --brand-purple:    #4a148c   (derived deep purple for headings/variety)
+     --brand-gray-bg:   #f5f5f5
+  ─────────────────────────────────────────────────────────────────────── */
+
+  :root {
+    --brand-navy:       #1a237e;
+    --brand-pink:       #DF0082;
+    --brand-pink-light: #ffd1e8;
+    --brand-pink-glow:  rgba(223,0,130,0.18);
+    --brand-pink-soft:  rgba(223,0,130,0.08);
+    --brand-purple:     #4a148c;
+    --brand-purple-mid: #7b1fa2;
+    --brand-white:      #ffffff;
+    --brand-black:      #000000;
+    --brand-text:       #333333;
+    --brand-gray-bg:    #f5f5f5;
+    --brand-gray-light: #f0f0f0;
+    --brand-border:     #e0d0ee;
+    --brand-navy-soft:  rgba(26,35,126,0.07);
+  }
+
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:'Segoe UI',Arial,sans-serif;background:var(--brand-white);color:var(--brand-text);line-height:1.75}
+
+  /* ── Top Bar ─────────────────────────────────────────────────────────── */
+  .topbar{
+    background:var(--brand-navy);
+    color:var(--brand-white);
+    text-align:center;
+    padding:9px 20px;
+    font-size:13px;
+    letter-spacing:.4px;
+  }
+  .topbar a{color:var(--brand-pink-light);text-decoration:none;font-weight:600}
+
+  /* ── Hero ────────────────────────────────────────────────────────────── */
+  .hero{
+    background:linear-gradient(135deg, var(--brand-navy) 0%, #283593 45%, #311b92 80%, var(--brand-purple) 100%);
+    color:var(--brand-white);
+    text-align:center;
+    padding:80px 24px 64px;
+    position:relative;
+    overflow:hidden;
+  }
+  .hero::before{
+    content:'';
+    position:absolute;inset:0;
+    background:radial-gradient(ellipse at 70% 30%, rgba(223,0,130,0.22) 0%, transparent 60%),
+               radial-gradient(ellipse at 20% 80%, rgba(74,20,140,0.30) 0%, transparent 55%);
+    pointer-events:none;
+  }
+  .hero .inner{position:relative;z-index:1}
+  .hero h1{
+    font-size:clamp(22px,4vw,42px);
+    font-weight:800;
+    letter-spacing:-0.5px;
+    margin-bottom:14px;
+    line-height:1.15;
+    background:linear-gradient(135deg,#fff 40%,var(--brand-pink-light) 100%);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    background-clip:text;
+  }
+  .hero h2{font-size:clamp(13px,2vw,19px);font-weight:400;opacity:.88;margin-bottom:8px;font-style:italic;color:var(--brand-pink-light)}
+  .hero h3{font-size:clamp(11px,1.4vw,14px);font-weight:600;opacity:.65;margin-bottom:28px;letter-spacing:2px;text-transform:uppercase;color:var(--brand-white)}
+  .hero .tagline{
+    font-size:clamp(15px,2.2vw,22px);
+    font-style:italic;
+    font-weight:700;
+    color:var(--brand-pink-light);
+    margin-bottom:24px;
+  }
+  .hero p{font-size:15px;max-width:700px;margin:0 auto 14px;opacity:.88;line-height:1.85}
+  .hero .location{font-size:13px;opacity:.6;margin-bottom:28px}
+  .hero-btns{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:8px}
+
+  /* ── Buttons ─────────────────────────────────────────────────────────── */
+  .btn{
+    display:inline-block;
+    padding:13px 30px;
+    border-radius:6px;
+    font-size:14px;
+    font-weight:700;
+    letter-spacing:.5px;
+    text-transform:uppercase;
+    cursor:pointer;
+    text-decoration:none;
+    transition:all .2s;
+  }
+  .btn-pink{
+    background:var(--brand-pink);
+    color:var(--brand-white);
+    border:2px solid var(--brand-pink);
+    box-shadow:0 4px 18px rgba(223,0,130,0.35);
+  }
+  .btn-pink:hover{background:#c2006f;border-color:#c2006f;box-shadow:0 6px 24px rgba(223,0,130,0.45)}
+  .btn-outline{
+    background:transparent;
+    color:var(--brand-white);
+    border:2px solid rgba(255,255,255,.55);
+  }
+  .btn-outline:hover{border-color:var(--brand-pink-light);color:var(--brand-pink-light)}
+  .btn-navy{
+    background:var(--brand-navy);
+    color:var(--brand-white);
+    border:2px solid var(--brand-navy);
+  }
+  .btn-navy:hover{background:#0d1766}
+
+  /* ── Layout ──────────────────────────────────────────────────────────── */
+  .container{max-width:920px;margin:0 auto;padding:0 24px}
+  .section{padding:56px 0;border-bottom:1px solid var(--brand-border)}
+  .section:last-child{border-bottom:none}
+
+  /* ── Promo Banner ────────────────────────────────────────────────────── */
+  .promo-banner{
+    background:linear-gradient(135deg,var(--brand-pink) 0%,#b5006a 50%,var(--brand-purple) 100%);
+    color:var(--brand-white);
+    text-align:center;
+    padding:44px 24px;
+    position:relative;
+    overflow:hidden;
+  }
+  .promo-banner::before{
+    content:'';position:absolute;inset:0;
+    background:radial-gradient(ellipse at 80% 50%,rgba(26,35,126,0.25) 0%,transparent 65%);
+    pointer-events:none;
+  }
+  .promo-banner .inner{position:relative;z-index:1}
+  .promo-banner h2{font-size:clamp(18px,3vw,28px);font-weight:800;margin-bottom:16px;letter-spacing:.5px;color:var(--brand-white)}
+  .promo-banner p{max-width:660px;margin:0 auto 12px;font-size:15px;opacity:.92;line-height:1.85}
+  .promo-banner .cta-line{font-weight:700;color:var(--brand-pink-light);font-size:15px;margin-top:10px}
+
+  /* ── Section Headings ────────────────────────────────────────────────── */
+  h2.section-title{
+    font-size:clamp(17px,2.4vw,24px);
+    color:var(--brand-navy);
+    margin-bottom:20px;
+    letter-spacing:.4px;
+    text-transform:uppercase;
+    font-weight:800;
+    padding-bottom:12px;
+    border-bottom:3px solid var(--brand-pink);
+    display:inline-block;
+  }
+  h3.sub-title{
+    font-size:15px;
+    color:var(--brand-purple);
+    margin:28px 0 10px;
+    letter-spacing:.5px;
+    text-transform:uppercase;
+    font-weight:700;
+  }
+  p.body-text{font-size:15px;margin-bottom:16px;line-height:1.88;color:var(--brand-text)}
+
+  /* ── Feature List ────────────────────────────────────────────────────── */
+  ul.feature-list{list-style:none;padding:0;margin:12px 0 20px}
+  ul.feature-list li{
+    padding:7px 0 7px 26px;
+    position:relative;
+    font-size:15px;
+    border-bottom:1px solid var(--brand-gray-light);
+    color:var(--brand-text);
+  }
+  ul.feature-list li:last-child{border-bottom:none}
+  ul.feature-list li::before{
+    content:"›";
+    position:absolute;left:4px;
+    color:var(--brand-pink);
+    font-weight:700;font-size:20px;top:4px;
+  }
+
+  /* ── Check Grid ──────────────────────────────────────────────────────── */
+  ul.check-list{
+    list-style:none;padding:0;
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(260px,1fr));
+    gap:8px;margin:16px 0;
+  }
+  ul.check-list li{
+    padding:9px 9px 9px 30px;
+    position:relative;
+    font-size:14px;
+    background:var(--brand-white);
+    border-radius:6px;
+    border:1px solid var(--brand-border);
+    color:var(--brand-text);
+    line-height:1.5;
+  }
+  ul.check-list li::before{
+    content:"✓";
+    position:absolute;left:9px;
+    color:var(--brand-pink);
+    font-weight:800;font-size:14px;
+  }
+
+  /* ── Suite Cards ─────────────────────────────────────────────────────── */
+  .suite-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:20px 0}
+  @media(max-width:600px){.suite-cards{grid-template-columns:1fr}}
+  .suite-card{
+    background:var(--brand-white);
+    border:1px solid var(--brand-border);
+    border-radius:10px;
+    padding:24px 16px;
+    text-align:center;
+    box-shadow:0 2px 12px var(--brand-pink-glow);
+    transition:transform .2s,box-shadow .2s;
+  }
+  .suite-card:hover{transform:translateY(-3px);box-shadow:0 6px 22px rgba(223,0,130,0.22)}
+  .suite-card .size{font-size:32px;font-weight:800;color:var(--brand-navy);margin-bottom:4px}
+  .suite-card .name{font-size:12px;text-transform:uppercase;letter-spacing:1.5px;color:var(--brand-pink);font-weight:700;margin-bottom:8px}
+  .suite-card p{font-size:13px;color:#555}
+
+  /* ── Image Placeholder ───────────────────────────────────────────────── */
+  .img-placeholder{
+    background:rgba(223,0,130,0.05);
+    border:2px dashed var(--brand-pink);
+    border-radius:8px;
+    padding:30px;
+    text-align:center;
+    color:var(--brand-pink);
+    font-size:13px;
+    margin:16px 0;
+    font-style:italic;
+    font-weight:600;
+  }
+
+  /* ── Guarantee ───────────────────────────────────────────────────────── */
+  .guarantee-box{
+    background:linear-gradient(135deg,rgba(26,35,126,0.05) 0%,rgba(223,0,130,0.06) 100%);
+    border-left:5px solid var(--brand-pink);
+    border-radius:0 10px 10px 0;
+    padding:28px 32px;
+    margin:8px 0;
+  }
+  .guarantee-box h2{font-size:19px;color:var(--brand-navy);margin-bottom:12px;font-weight:800}
+
+  /* ── Reviews ─────────────────────────────────────────────────────────── */
+  .reviews{background:var(--brand-gray-bg);border-radius:10px;padding:28px;margin:20px 0}
+  .reviews .rating{font-size:19px;font-weight:800;color:var(--brand-navy);margin-bottom:20px}
+  .review-card{
+    background:var(--brand-white);
+    border-radius:8px;
+    padding:20px 24px;
+    margin-bottom:14px;
+    border-left:4px solid var(--brand-pink);
+    font-style:italic;
+    font-size:15px;
+    line-height:1.85;
+    color:var(--brand-text);
+    box-shadow:0 2px 8px rgba(0,0,0,0.06);
+  }
+  .review-card:last-child{margin-bottom:0}
+  .review-card .reviewer{font-style:normal;font-weight:700;color:var(--brand-navy);margin-top:12px;font-size:14px}
+
+  /* ── Steps ───────────────────────────────────────────────────────────── */
+  .steps{margin:20px 0}
+  .step{display:flex;gap:20px;margin-bottom:28px;align-items:flex-start}
+  .step-num{
+    background:linear-gradient(135deg,var(--brand-pink),var(--brand-purple));
+    color:var(--brand-white);
+    width:44px;height:44px;
+    border-radius:50%;
+    display:flex;align-items:center;justify-content:center;
+    font-weight:800;font-size:18px;flex-shrink:0;margin-top:2px;
+    box-shadow:0 4px 12px rgba(223,0,130,0.3);
+  }
+  .step-content h3{font-size:15px;text-transform:uppercase;letter-spacing:.5px;color:var(--brand-navy);margin-bottom:6px;font-weight:700}
+  .step-content p{font-size:15px;color:var(--brand-text);line-height:1.85}
+
+  /* ── Services Grid ───────────────────────────────────────────────────── */
+  .services-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px;margin:20px 0}
+  .service-card{
+    background:var(--brand-white);
+    border:1px solid var(--brand-border);
+    border-radius:10px;
+    padding:22px;
+    transition:box-shadow .2s;
+  }
+  .service-card:hover{box-shadow:0 4px 18px var(--brand-pink-glow)}
+  .service-card h3{font-size:12px;text-transform:uppercase;letter-spacing:.8px;color:var(--brand-pink);font-weight:700;margin-bottom:9px}
+  .service-card p{font-size:13px;color:#555;line-height:1.7}
+
+  /* ── Grooming Tags ───────────────────────────────────────────────────── */
+  .grooming-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:8px;margin:12px 0}
+  .grooming-tag{
+    background:rgba(223,0,130,0.07);
+    border-radius:20px;
+    padding:7px 14px;
+    font-size:13px;
+    color:var(--brand-navy);
+    text-align:center;
+    border:1px solid rgba(223,0,130,0.25);
+    font-weight:600;
+  }
+
+  /* ── Stats Strip ─────────────────────────────────────────────────────── */
+  .stats-strip{
+    background:var(--brand-navy);
+    color:var(--brand-white);
+    display:grid;grid-template-columns:repeat(4,1fr);
+    text-align:center;
+    padding:28px 24px;
+    gap:16px;
+  }
+  @media(max-width:560px){.stats-strip{grid-template-columns:repeat(2,1fr)}}
+  .stat-num{font-size:clamp(22px,3vw,32px);font-weight:800;color:var(--brand-pink-light);line-height:1}
+  .stat-label{font-size:12px;opacity:.7;margin-top:4px;letter-spacing:.5px;text-transform:uppercase}
+
+  /* ── Contact Section ─────────────────────────────────────────────────── */
+  .contact-section{
+    background:linear-gradient(135deg,var(--brand-navy) 0%,#283593 40%,#311b92 70%,var(--brand-purple) 100%);
+    color:var(--brand-white);
+    padding:56px 24px;
+    text-align:center;
+    position:relative;
+    overflow:hidden;
+  }
+  .contact-section::before{
+    content:'';position:absolute;inset:0;
+    background:radial-gradient(ellipse at 30% 60%,rgba(223,0,130,0.18) 0%,transparent 55%);
+    pointer-events:none;
+  }
+  .contact-section .inner{position:relative;z-index:1}
+  .contact-section h2{font-size:clamp(17px,2.5vw,24px);color:var(--brand-pink-light);margin-bottom:16px;letter-spacing:.5px;text-transform:uppercase;font-weight:800}
+  .contact-section p{max-width:600px;margin:0 auto 14px;opacity:.9;font-size:15px;line-height:1.85}
+  .phone{
+    font-size:clamp(26px,4vw,40px);
+    font-weight:800;
+    color:var(--brand-white);
+    margin:18px 0;
+    text-shadow:0 2px 12px rgba(223,0,130,0.4);
+  }
+
+  /* ── Hours ───────────────────────────────────────────────────────────── */
+  .hours-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;max-width:480px;margin:24px auto 0;text-align:center}
+  @media(max-width:480px){.hours-grid{grid-template-columns:1fr}}
+  .hour-item{background:rgba(255,255,255,.09);border-radius:8px;padding:16px;border:1px solid rgba(255,255,255,.12)}
+  .hour-item .day{font-size:11px;text-transform:uppercase;letter-spacing:1.5px;opacity:.65;margin-bottom:5px}
+  .hour-item .time{font-weight:700;font-size:14px;color:var(--brand-pink-light)}
+
+  /* ── Footer ──────────────────────────────────────────────────────────── */
+  .footer{
+    background:#0d1150;
+    color:rgba(255,255,255,0.5);
+    text-align:center;
+    padding:24px;
+    font-size:13px;
+    line-height:2.1;
+  }
+  .footer strong{color:rgba(255,255,255,.85)}
+
+  /* ── Purple accent blocks ─────────────────────────────────────────────── */
+  .section-accent{
+    background:linear-gradient(135deg,rgba(26,35,126,0.04) 0%,rgba(223,0,130,0.04) 100%);
+    border-radius:10px;
+    padding:32px;
+    margin:8px 0;
+    border:1px solid var(--brand-border);
+  }
+
+  /* ── Navy band dividers ──────────────────────────────────────────────── */
+  .band{
+    background:var(--brand-navy);
+    color:var(--brand-white);
+    padding:18px 24px;
+    text-align:center;
+    font-size:13px;
+    letter-spacing:.5px;
+    font-weight:600;
+  }
+  .band span{color:var(--brand-pink-light)}
+</style>
+</head>
+<body>
+
+<!-- TOP BAR -->
+<div class="topbar">
+  🐱 South Orange County's #1 Cat-Only Hotel &nbsp;·&nbsp; Est. 1996 &nbsp;·&nbsp;
+  <a href="tel:9495821732">(949) 582-1732</a> &nbsp;·&nbsp; Walk-ins Welcome
+</div>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="inner container">
+    <h1>Welcome to Cats Luv Us Boarding Hotel &amp; Grooming</h1>
+    <h2>South Orange County's Premier Cat-Only Hotel, Cattery &amp; Grooming Spa</h2>
+    <h3>Trusted by Orange County Cat Lovers Since 1996</h3>
+    <div class="tagline">"Your cat deserves more than a kennel. They deserve a vacation."</div>
+    <p>For over 30 years, Cats Luv Us Boarding Hotel has been the most trusted name in cat care throughout South Orange County. No dogs. No chaos. Just exceptional, personalized care for the animal you love most.</p>
+    <p class="location">📍 27601 Forbes Rd, Suite 25, Laguna Niguel, CA 92677 — Three Flags Center near Costco on Cabot Road at Crown Valley</p>
+    <div class="hero-btns">
+      <a href="#" class="btn btn-pink">Book Your Cat's Stay</a>
+      <a href="#" class="btn btn-outline">Book Cat Grooming</a>
+    </div>
+  </div>
+</div>
+
+<!-- STATS STRIP -->
+<div class="stats-strip">
+  <div><div class="stat-num">50,000+</div><div class="stat-label">Happy Cats Served</div></div>
+  <div><div class="stat-num">30+</div><div class="stat-label">Years of Excellence</div></div>
+  <div><div class="stat-num">4.5★</div><div class="stat-label">Yelp Rating</div></div>
+  <div><div class="stat-num">100%</div><div class="stat-label">Cat-Only Facility</div></div>
+</div>
+
+<!-- FIRST NIGHT FREE -->
+<div class="promo-banner">
+  <div class="inner container">
+    <h2>⭐ FIRST NIGHT FREE FOR NEW CUSTOMERS</h2>
+    <p>We are so confident your cat will love staying with us that new customers receive their very first night absolutely free. No gimmicks, no fine print — just our way of introducing you to the Cats Luv Us experience and earning your trust from day one.</p>
+    <p>New customers and refer-a-friend guests are both welcome. We simply ask that you try to book a minimum of three nights so your cat has time to truly settle in and enjoy themselves.</p>
+    <div class="cta-line">📞 Call today to reserve and claim your First Night Free &nbsp;—&nbsp; (949) 582-1732</div>
+  </div>
+</div>
+
+<div class="container">
+
+  <!-- A DIFFERENT KIND -->
+  <div class="section">
+    <h2 class="section-title">A Different Kind of Cat Hotel</h2>
+    <p class="body-text">Most boarding facilities are built for dogs and adapted for cats as an afterthought. Cats Luv Us was built for cats and cats alone — and your feline companion will feel the difference the moment they arrive.</p>
+    <p class="body-text">Since 1996, our facility has been <strong>100% dog-free</strong>. There is no barking echoing down hallways, no unfamiliar canine scents drifting through the air, and no unnecessary stress placed on animals that are hardwired to be sensitive to their environment. What there is, instead, is quiet. Calm. Safety.</p>
+    <p class="body-text">Whether your cat is a confident, curious explorer or a shy, anxious homebody — whether they are a healthy young kitten or a senior cat managing a complex medical regimen — we have the experience, the facilities, and the genuine love for cats to give them an exceptional stay every single time.</p>
+  </div>
+
+  <!-- SUITES -->
+  <div class="section">
+    <h2 class="section-title">Spacious Suites, Play Areas &amp; Accommodations Your Cat Will Love</h2>
+    <p class="body-text">We believe a stay at a cat boarding hotel should feel like a genuine vacation — not a waiting room. Every detail of our facility has been thoughtfully designed to keep your cat comfortable, stimulated, and content from the first day to the last.</p>
+
+    <h3 class="sub-title">🏠 Private Luxury Suites</h3>
+    <p class="body-text">Every guest at Cats Luv Us is provided with their own private, clean, and fully ventilated suite. Your cat will never share a space with a stranger. Their suite is their sanctuary — a quiet, personal space where they can eat, sleep, and relax entirely on their own terms.</p>
+    <div class="suite-cards">
+      <div class="suite-card">
+        <div class="size">16 ft³</div>
+        <div class="name">Single Suite</div>
+        <p>Perfect for one cat</p>
+      </div>
+      <div class="suite-card">
+        <div class="size">32 ft³</div>
+        <div class="name">Double Suite</div>
+        <p>Ideal for cats that love extra room</p>
+      </div>
+      <div class="suite-card">
+        <div class="size">48 ft³</div>
+        <div class="name">Family Suite</div>
+        <p>Designed for bonded pairs &amp; multi-cat families</p>
+      </div>
+    </div>
+    <div class="img-placeholder">[ Suite Images — Add Photos Here ]</div>
+
+    <h3 class="sub-title">🔗 Connecting Family Suites</h3>
+    <p class="body-text">Bonded cats and multi-cat families deserve to stay together. We offer double and triple adjoining suites so your cats can remain side by side throughout their entire stay, providing the comfort and familiarity that makes all the difference.</p>
+    <div class="img-placeholder">[ Family Suite Images — Add Photos Here ]</div>
+
+    <h3 class="sub-title">🌿 Three Large Dedicated Play Areas</h3>
+    <p class="body-text">Exercise and exploration are essential to a happy, healthy cat. Our facility features three large, dedicated play areas where cats enjoy supervised time to roam, stretch, climb, and engage in a safe and stimulating environment.</p>
+    <div class="img-placeholder">[ Play Area Images — Add Photos Here ]</div>
+
+    <h3 class="sub-title">🐦 Cat TV — Live Bird Entertainment</h3>
+    <p class="body-text">Boredom is the enemy of a happy cat. We move mobile birdcages housing live parakeets through the facility — providing hours of natural, instinct-driven entertainment without any risk to the birds. Think of it as Netflix, curated specifically for cats.</p>
+
+    <h3 class="sub-title">📸 Daily Photo &amp; Video Updates</h3>
+    <p class="body-text">You should never have to wonder how your cat is doing. We send daily photo and video updates directly to you so you can see for yourself that your cat is relaxed, happy, and well cared for — no matter where in the world you happen to be.</p>
+  </div>
+
+  <!-- GUARANTEE -->
+  <div class="section">
+    <div class="guarantee-box">
+      <h2>💯 100% Purrfect or Your Money Back Guarantee</h2>
+      <p class="body-text" style="margin-top:10px;margin-bottom:0">Every stay at Cats Luv Us is backed by our 100% Satisfaction Guarantee. If for any reason your experience does not meet your expectations, we will make it right — no questions asked. Our staff is always just a phone call away before, during, and after your cat's stay to address any questions or concerns you may have.</p>
+    </div>
+  </div>
+
+  <!-- TESTIMONIALS -->
+  <div class="section">
+    <h2 class="section-title">What Our Customers Are Saying</h2>
+    <div class="reviews">
+      <div class="rating">⭐⭐⭐⭐½ &nbsp; 4.5 out of 5.0 — Based on 120 Verified Yelp Reviews</div>
+      <div class="review-card">
+        "Wow, you are amazing! Thank you for taking such great care of Smokey. What a wonderful experience. I loved receiving updates on Smokey while we were on vacation. We will definitely be back!"
+        <div class="reviewer">— Deborah R.</div>
+      </div>
+      <div class="review-card">
+        "The best. Absolutely the best. I had a groomer come to my house who put a muzzle on my cat unnecessarily, and I was so upset I went searching for someone better. I found Cats Luv Us and I am never going back."
+        <div class="reviewer">— Susan G.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- WHEN YOU NEED US -->
+  <div class="section">
+    <h2 class="section-title">We Are Here When You Need Us Most</h2>
+    <p class="body-text">Life is unpredictable. Cats Luv Us is here to provide a safe, reliable solution whenever circumstances require professional cat care, including when you are:</p>
+    <ul class="feature-list">
+      <li>Traveling out of town for work or vacation</li>
+      <li>Relocating, remodeling, or dealing with construction at home</li>
+      <li>Having your home tented for termites</li>
+      <li>Visiting Orange County and unable to leave your cat behind</li>
+      <li>Managing a cat that requires daily medications such as insulin or subcutaneous fluids</li>
+      <li>Caring for an anxious, difficult, or medically complex cat</li>
+      <li>Protecting your privacy and valuables while service professionals are in your home</li>
+      <li>In need of expert grooming, a nail trim, or a full spa day for your cat</li>
+    </ul>
+  </div>
+
+  <!-- MEDICAL CARE -->
+  <div class="section">
+    <h2 class="section-title">Specialized Medical Care &amp; Long-Term Boarding</h2>
+    <p class="body-text">Cats with medical needs deserve attentive, knowledgeable care — and that is precisely what we provide. Our staff has extensive hands-on experience administering a full spectrum of treatments and medications, including:</p>
+    <ul class="feature-list">
+      <li>Insulin injections</li>
+      <li>Subcutaneous fluid therapy</li>
+      <li>Inhaler and respiratory support</li>
+      <li>Oral medications</li>
+      <li>Liquid medications</li>
+    </ul>
+    <p class="body-text">We also have an <strong>on-call veterinarian</strong> available to ensure your cat has access to professional medical support whenever it is needed — giving you complete peace of mind throughout your cat's entire stay.</p>
+    <p class="body-text">Simply provide us with your cat's instructions and medical history at check-in and we will execute their care routine with the same precision and consistency you provide at home. <strong>Not a single dose will be missed.</strong></p>
+    <p class="body-text">For cats requiring long-term boarding due to an extended trip, relocation, or home renovation, we offer a stable, nurturing environment with the close personal attention that long stays require. Senior cats and cats with complex needs are always welcome — and always in exceptionally capable hands.</p>
+  </div>
+
+  <!-- SERVICES -->
+  <div class="section">
+    <h2 class="section-title">Our Services</h2>
+    <div class="services-grid">
+      <div class="service-card">
+        <h3>🏠 Cat Boarding</h3>
+        <p>Private suites, your cat's exact feeding schedule, and close personal attention throughout their stay.</p>
+      </div>
+      <div class="service-card">
+        <h3>☀️ Cat Day Care</h3>
+        <p>A safe, stimulating daytime environment while you handle work or daytime commitments.</p>
+      </div>
+      <div class="service-card">
+        <h3>📅 Long-Term Boarding</h3>
+        <p>Consistency, stability, and individualized care for extended stays — relocations, renovations, and more.</p>
+      </div>
+      <div class="service-card">
+        <h3>💊 Medication Administration</h3>
+        <p>Insulin, subcutaneous fluids, inhalers, and oral medications handled with care and precision.</p>
+      </div>
+      <div class="service-card">
+        <h3>🩺 On-Call Veterinarian</h3>
+        <p>Professional veterinary guidance available throughout your cat's stay for complete peace of mind.</p>
+      </div>
+      <div class="service-card">
+        <h3>🚨 Vet Emergency Protocol</h3>
+        <p>Immediate contact with you and your veterinarian in the event of any health concern.</p>
+      </div>
+      <div class="service-card">
+        <h3>🔗 Adjoining Suite Options</h3>
+        <p>One, two, or three adjoining rooms for multi-cat households. All suites prevent contact between unrelated guests.</p>
+      </div>
+      <div class="service-card">
+        <h3>💉 Vaccination Requirements</h3>
+        <p>Current FRCP vaccination required. Proof of vaccination required at check-in.</p>
+      </div>
+    </div>
+
+    <h3 class="sub-title">✂️ Cat Grooming</h3>
+    <p class="body-text">Our grooming team works exclusively with cats — and the dog-free environment of our facility means that even the most sensitive and anxious cats remain calm and relaxed throughout their entire grooming appointment.</p>
+    <div class="grooming-list">
+      <div class="grooming-tag">🦁 Lion Cuts</div>
+      <div class="grooming-tag">De-shedding Treatments</div>
+      <div class="grooming-tag">De-matting</div>
+      <div class="grooming-tag">Waterless Baths</div>
+      <div class="grooming-tag">Precision Nail Trims</div>
+      <div class="grooming-tag">Nail Caps</div>
+      <div class="grooming-tag">Calming Shampoos</div>
+      <div class="grooming-tag">Flea Treatments</div>
+    </div>
+    <p style="margin-top:18px"><a href="#" class="btn btn-pink" style="font-size:13px;padding:11px 24px">Book a Cat Grooming Appointment</a></p>
+  </div>
+
+  <!-- WHY CHOOSE US -->
+  <div class="section">
+    <h2 class="section-title">Why Cat Owners Around the World Choose Cats Luv Us</h2>
+    <p class="body-text">The cat boarding industry is full of facilities that treat feline guests as an afterthought. Cats Luv Us was built from the ground up with one animal in mind — the cat — and that singular focus is evident in everything we do.</p>
+    <p class="body-text">Since 1996, we have welcomed cats from across Orange County and from around the world, earning a reputation for excellence, reliability, and genuine compassion. Our clients return year after year not simply because we provide a service, but because they trust us completely with the animals they love.</p>
+    <ul class="check-list">
+      <li>Cat-only facility, 100% dog-free since 1996</li>
+      <li>Over 30 years of experience in professional cat care</li>
+      <li>Private luxury suites in single, double, and family sizes</li>
+      <li>Suite dimensions from 16 to 48 cubic feet</li>
+      <li>Three large dedicated play areas</li>
+      <li>Connecting family suites for bonded cats</li>
+      <li>Full medication administration</li>
+      <li>On-call veterinarian for peace of mind</li>
+      <li>Cat TV with live parakeet entertainment</li>
+      <li>Daily photo &amp; video updates</li>
+      <li>Long-term boarding available</li>
+      <li>Professional on-site cat grooming</li>
+      <li>Walk-ins welcome</li>
+      <li>Woman owned and operated</li>
+      <li>Budget friendly rates</li>
+      <li>New customers: <strong>first night free</strong></li>
+    </ul>
+  </div>
+
+  <!-- HOW IT WORKS -->
+  <div class="section">
+    <h2 class="section-title">How It Works</h2>
+    <p class="body-text">Getting started at Cats Luv Us is simple. Here is what to expect.</p>
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">1</div>
+        <div class="step-content">
+          <h3>Book Your Dates</h3>
+          <p>Contact us to check availability, ask about our amenities, and secure your cat's reservation. We recommend booking in advance, particularly around holidays and peak travel periods when suites fill quickly.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">2</div>
+        <div class="step-content">
+          <h3>Arrival &amp; Check-In</h3>
+          <p>When you arrive, a member of our team will welcome you and your cat and walk you through the brief check-in process. You will provide your cat's feeding schedule, vaccination records, emergency contact information, and any medication or special care instructions.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">3</div>
+        <div class="step-content">
+          <h3>Your Cat's Personal Tour</h3>
+          <p>We will personally show you your cat's private suite, walk you through our facility, and explain in detail exactly how we will care for your cat during their stay. We encourage you to ask questions, look around, and leave feeling completely at ease.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TOURS -->
+  <div class="section">
+    <h2 class="section-title">See It for Yourself — Personal Tours Always Welcome</h2>
+    <p class="body-text">We believe the best way to understand what makes Cats Luv Us special is to come and see it for yourself. We warmly invite prospective clients to stop by for a personal tour of our facility before booking. Call us today to schedule a visit.</p>
+    <p class="body-text">When you walk through our doors, you will see firsthand the private suites, the three large play areas, the Cat TV entertainment, and the team of caring professionals who make Cats Luv Us the most trusted cat boarding hotel in South Orange County. You will leave with the peace of mind that comes from knowing exactly where your cat will be — and exactly how well they will be treated.</p>
+    <a href="#" class="btn btn-pink">Schedule a Personal Tour</a>
+  </div>
+
+  <!-- TRUSTED 30 YEARS -->
+  <div class="section">
+    <h2 class="section-title">Trusted for Over 30 Years</h2>
+    <p class="body-text">We have been in business since 1996. In that time, we have cared for thousands of cats, earned hundreds of five-star reviews, and built relationships with Orange County cat owners that span decades. Our five-star rated cat caretakers are passionate about what they do, deeply experienced in feline care, and genuinely devoted to the well-being of every animal in their charge.</p>
+    <p class="body-text">When you board your cat at Cats Luv Us, you are not handing them over to a stranger. You are entrusting them to a team that has been doing this for over 30 years — and that takes that responsibility seriously every single day.</p>
+  </div>
+
+</div><!-- /container -->
+
+<!-- CONTACT -->
+<div class="contact-section">
+  <div class="inner container">
+    <h2>Have Questions? We Would Love to Hear From You</h2>
+    <p>Whether you have questions about boarding availability, grooming services, medication administration, long-term stays, or anything else, we are here to help. Fill out the form below and we will respond within 24 hours — or call us directly and we will be happy to speak with you right away.</p>
+    <div class="phone">(949) 582-1732</div>
+    <a href="#" class="btn btn-pink">Send Us a Message</a>
+
+    <div style="margin-top:48px">
+      <h2 style="font-size:17px;margin-bottom:18px;letter-spacing:1.5px">HOURS OF OPERATION</h2>
+      <div class="hours-grid">
+        <div class="hour-item">
+          <div class="day">Mon – Fri</div>
+          <div class="time">9:00 AM – 5:00 PM</div>
+        </div>
+        <div class="hour-item">
+          <div class="day">Saturday</div>
+          <div class="time">9:00 AM – 12:00 PM</div>
+        </div>
+        <div class="hour-item">
+          <div class="day">Sunday</div>
+          <div class="time">Closed</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+  <strong>Cats Luv Us Boarding Hotel &amp; Grooming</strong><br>
+  27601 Forbes Rd, Suite 25 &nbsp;·&nbsp; Laguna Niguel, CA 92677 &nbsp;·&nbsp; (949) 582-1732<br>
+  <em>Located in the Three Flags Center near Costco on Cabot Road at Crown Valley</em><br>
+  <span style="font-size:12px;opacity:.5;margin-top:6px;display:block">© 2023–2026 Cats Luv Us Boarding Hotel LLC · All rights reserved</span>
+</div>
+
+</body>
+</html>
