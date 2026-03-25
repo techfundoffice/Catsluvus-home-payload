@@ -1,0 +1,25 @@
+{
+  "name": "catsluvus-payload",
+  "version": "1.0.0",
+  "description": "Cats Luv Us Payload CMS",
+  "scripts": {
+    "dev": "payload dev",
+    "build": "payload build",
+    "start": "payload start",
+    "generate:types": "payload generate:types"
+  },
+  "dependencies": {
+    "@payloadcms/db-sqlite": "^3.0.0",
+    "@payloadcms/next": "^3.0.0",
+    "@payloadcms/richtext-lexical": "^3.0.0",
+    "next": "^15.0.0",
+    "payload": "^3.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^19.0.0",
+    "typescript": "^5.0.0"
+  }
+}

@@ -1,0 +1,586 @@
+{
+  "root": {
+    "children": [
+      {
+        "children": [
+          { "detail": 0, "format": 1, "mode": "normal", "style": "", "text": "Welcome to Cats Luv Us Boarding Hotel & Grooming", "type": "text", "version": 1 }
+        ],
+        "direction": "ltr", "format": "", "indent": 0, "tag": "h1", "type": "heading", "version": 1
+      },
+      {
+        "children": [
+          { "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "South Orange County\u2019s Premier Cat-Only Hotel, Cattery & Grooming Spa", "type": "text", "version": 1 }
+        ],
+        "direction": "ltr", "format": "", "indent": 0, "tag": "h2", "type": "heading", "version": 1
+      },
+      {
+        "children": [
+          { "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "Trusted by Orange County Cat Lovers Since 1996", "type": "text", "version": 1 }
+        ],
+        "direction": "ltr", "format": "", "indent": 0, "tag": "h3", "type": "heading", "version": 1
+      },
+      { "children": [], "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": "" },
+      {
+        "children": [
+          { "detail": 0, "format": 3, "mode": "normal", "style": "", "text": "Your cat deserves more than a kennel. They deserve a vacation.", "type": "text", "version": 1 }
+        ],
+        "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": ""
+      },
+      { "children": [], "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": "" },
+      {
+        "children": [
+          { "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "For over 30 years, Cats Luv Us Boarding Hotel has been the most trusted name in cat care throughout South Orange County. From the moment we opened our doors in 1996, we made a promise that has never wavered \u2014 to provide every feline guest with a safe, calm, and genuinely enriching experience in an environment designed exclusively for cats. No dogs. No chaos. Just exceptional, personalized care for the animal you love most.", "type": "text", "version": 1 }
+        ],
+        "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": ""
+      },
+      { "children": [], "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": "" },
+      {
+        "children": [
+          { "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "We serve cat owners throughout Laguna Niguel, Mission Viejo, Lake Forest, and all of South Orange County from our convenient location at ", "type": "text", "version": 1 },
+          { "detail": 0, "format": 1, "mode": "normal", "style": "", "text": "27601 Forbes Rd, Suite 25, Laguna Niguel, CA 92677", "type": "text", "version": 1 },
+          { "detail": 0, "format": 0, "mode": "normal", "style": "", "text": " \u2014 in the Three Flags Center near Costco on Cabot Road at Crown Valley.", "type": "text", "version": 1 }
+        ],
+        "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": ""
+      },
+      { "children": [], "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": "" },
+      {
+        "children": [
+          { "detail": 0, "format": 1, "mode": "normal", "style": "", "text": "Book Your Cat\u2019s Stay", "type": "text", "version": 1 },
+          { "detail": 0, "format": 0, "mode": "normal", "style": "", "text": " | ", "type": "text", "version": 1 },
+          { "detail": 0, "format": 1, "mode": "normal", "style": "", "text": "Book Cat Grooming", "type": "text", "version": 1 }
+        ],
+        "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": ""
+      },
+      { "type": "horizontalrule", "version": 1 },
+      {
+        "children": [
+          { "detail": 0, "format": 1, "mode": "normal", "style": "", "text": "FIRST NIGHT FREE FOR NEW CUSTOMERS", "type": "text", "version": 1 }
+        ],
+        "direction": "ltr", "format": "", "indent": 0, "tag": "h2", "type": "heading", "version": 1
+      },
+      {
+        "children": [
+          { "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "We are so confident your cat will love staying with us that new customers receive their very first night absolutely free. No gimmicks, no fine print \u2014 just our way of introducing you to the Cats Luv Us experience and earning your trust from day one. New customers and refer-a-friend guests are both welcome. We simply ask that you try to book a minimum of three nights so your cat has time to truly settle in and enjoy themselves.", "type": "text", "version": 1 }
+        ],
+        "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": ""
+      },
+      { "children": [], "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": "" },
+      {
+        "children": [
+          { "detail": 0, "format": 1, "mode": "normal", "style": "", "text": "Call today to reserve and claim your First Night Free.", "type": "text", "version": 1 }
+        ],
+        "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": ""
+      },
+      { "type": "horizontalrule", "version": 1 },
+      {
+        "children": [
+          { "detail": 0, "format": 1, "mode": "normal", "style": "", "text": "A DIFFERENT KIND OF CAT HOTEL", "type": "text", "version": 1 }
+        ],
+        "direction": "ltr", "format": "", "indent": 0, "tag": "h2", "type": "heading", "version": 1
+      },
+      {
+        "children": [
+          { "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "Most boarding facilities are built for dogs and adapted for cats as an afterthought. Cats Luv Us was built for cats and cats alone \u2014 and your feline companion will feel the difference the moment they arrive.", "type": "text", "version": 1 }
+        ],
+        "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": ""
+      },
+      { "children": [], "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": "" },
+      {
+        "children": [
+          { "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "Since 1996, our facility has been 100% dog-free. There is no barking echoing down hallways, no unfamiliar canine scents drifting through the air, and no unnecessary stress placed on animals that are hardwired to be sensitive to their environment. What there is, instead, is quiet. Calm. Safety. And a team of deeply experienced cat caretakers who have spent over three decades learning exactly what cats need to thrive away from home.", "type": "text", "version": 1 }
+        ],
+        "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": ""
+      },
+      { "children": [], "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": "" },
+      {
+        "children": [
+          { "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "Whether your cat is a confident, curious explorer or a shy, anxious homebody \u2014 whether they are a healthy young kitten or a senior cat managing a complex medical regimen \u2014 we have the experience, the facilities, and the genuine love for cats to give them an exceptional stay every single time.", "type": "text", "version": 1 }
+        ],
+        "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": ""
+      },
+      { "type": "horizontalrule", "version": 1 },
+      {
+        "children": [
+          { "detail": 0, "format": 1, "mode": "normal", "style": "", "text": "SPACIOUS SUITES, PLAY AREAS & ACCOMMODATIONS YOUR CAT WILL LOVE", "type": "text", "version": 1 }
+        ],
+        "direction": "ltr", "format": "", "indent": 0, "tag": "h2", "type": "heading", "version": 1
+      },
+      {
+        "children": [
+          { "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "We believe a stay at a cat boarding hotel should feel like a genuine vacation \u2014 not a waiting room. Every detail of our facility has been thoughtfully designed to keep your cat comfortable, stimulated, and content from the first day to the last.", "type": "text", "version": 1 }
+        ],
+        "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": ""
+      },
+      { "children": [], "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": "" },
+      {
+        "children": [
+          { "detail": 0, "format": 1, "mode": "normal", "style": "", "text": "PRIVATE LUXURY SUITES", "type": "text", "version": 1 }
+        ],
+        "direction": "ltr", "format": "", "indent": 0, "tag": "h3", "type": "heading", "version": 1
+      },
+      {
+        "children": [
+          { "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "Every guest at Cats Luv Us is provided with their own private, clean, and fully ventilated suite. Your cat will never share a space with a stranger. Their suite is their sanctuary \u2014 a quiet, personal space where they can eat, sleep, and relax entirely on their own terms. Our suites are available in three sizes to accommodate every cat and every family:", "type": "text", "version": 1 }
+        ],
+        "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": ""
+      },
+      {
+        "children": [
+          { "children": [{ "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "Single Suite: ", "type": "text", "version": 1 }, { "detail": 0, "format": 1, "mode": "normal", "style": "", "text": "16 cubic feet", "type": "text", "version": 1 }, { "detail": 0, "format": 0, "mode": "normal", "style": "", "text": " \u2014 perfect for one cat", "type": "text", "version": 1 }], "direction": "ltr", "format": "", "indent": 0, "type": "listitem", "value": 1, "version": 1 },
+          { "children": [{ "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "Double Suite: ", "type": "text", "version": 1 }, { "detail": 0, "format": 1, "mode": "normal", "style": "", "text": "32 cubic feet", "type": "text", "version": 1 }, { "detail": 0, "format": 0, "mode": "normal", "style": "", "text": " \u2014 ideal for cats that love extra room", "type": "text", "version": 1 }], "direction": "ltr", "format": "", "indent": 0, "type": "listitem", "value": 2, "version": 1 },
+          { "children": [{ "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "Family Suite: ", "type": "text", "version": 1 }, { "detail": 0, "format": 1, "mode": "normal", "style": "", "text": "48 cubic feet", "type": "text", "version": 1 }, { "detail": 0, "format": 0, "mode": "normal", "style": "", "text": " \u2014 designed for bonded pairs and multi-cat families", "type": "text", "version": 1 }], "direction": "ltr", "format": "", "indent": 0, "type": "listitem", "value": 3, "version": 1 }
+        ],
+        "direction": "ltr", "format": "", "indent": 0, "listType": "bullet", "start": 1, "tag": "ul", "type": "list", "version": 1
+      },
+      { "children": [], "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": "" },
+      {
+        "children": [{ "detail": 0, "format": 2, "mode": "normal", "style": "", "text": "[ ADD SUITE IMAGES HERE ]", "type": "text", "version": 1 }],
+        "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": ""
+      },
+      { "children": [], "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": "" },
+      {
+        "children": [
+          { "detail": 0, "format": 1, "mode": "normal", "style": "", "text": "CONNECTING FAMILY SUITES", "type": "text", "version": 1 }
+        ],
+        "direction": "ltr", "format": "", "indent": 0, "tag": "h3", "type": "heading", "version": 1
+      },
+      {
+        "children": [
+          { "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "Bonded cats and multi-cat families deserve to stay together. We offer double and triple adjoining suites so your cats can remain side by side throughout their entire stay, providing the comfort and familiarity that makes all the difference. Bedrooms with connecting doors are available for families of two or more.", "type": "text", "version": 1 }
+        ],
+        "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": ""
+      },
+      { "children": [], "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": "" },
+      {
+        "children": [{ "detail": 0, "format": 2, "mode": "normal", "style": "", "text": "[ ADD FAMILY SUITE IMAGES HERE ]", "type": "text", "version": 1 }],
+        "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": ""
+      },
+      { "children": [], "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": "" },
+      {
+        "children": [
+          { "detail": 0, "format": 1, "mode": "normal", "style": "", "text": "THREE LARGE DEDICATED PLAY AREAS", "type": "text", "version": 1 }
+        ],
+        "direction": "ltr", "format": "", "indent": 0, "tag": "h3", "type": "heading", "version": 1
+      },
+      {
+        "children": [
+          { "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "Exercise and exploration are essential to a happy, healthy cat. Our facility features three large, dedicated play areas where cats enjoy supervised time to roam, stretch, climb, and engage in a safe and stimulating environment. These are not small cages or cramped enclosures \u2014 they are generous, airy spaces designed with the natural behaviors and instincts of cats in mind.", "type": "text", "version": 1 }
+        ],
+        "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": ""
+      },
+      { "children": [], "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": "" },
+      {
+        "children": [{ "detail": 0, "format": 2, "mode": "normal", "style": "", "text": "[ ADD PLAY AREA IMAGES HERE ]", "type": "text", "version": 1 }],
+        "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": ""
+      },
+      { "children": [], "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": "" },
+      {
+        "children": [
+          { "detail": 0, "format": 1, "mode": "normal", "style": "", "text": "CAT TV \u2014 LIVE BIRD ENTERTAINMENT", "type": "text", "version": 1 }
+        ],
+        "direction": "ltr", "format": "", "indent": 0, "tag": "h3", "type": "heading", "version": 1
+      },
+      {
+        "children": [
+          { "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "Boredom is the enemy of a happy cat. To keep our guests mentally stimulated and entertained throughout the day, we move mobile birdcages housing live parakeets through the facility \u2014 providing hours of natural, instinct-driven entertainment without any risk to the birds. Think of it as Netflix, curated specifically for cats.", "type": "text", "version": 1 }
+        ],
+        "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": ""
+      },
+      { "children": [], "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": "" },
+      {
+        "children": [
+          { "detail": 0, "format": 1, "mode": "normal", "style": "", "text": "DAILY PHOTO & VIDEO UPDATES", "type": "text", "version": 1 }
+        ],
+        "direction": "ltr", "format": "", "indent": 0, "tag": "h3", "type": "heading", "version": 1
+      },
+      {
+        "children": [
+          { "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "You should never have to wonder how your cat is doing. We send daily photo and video updates directly to you so you can see for yourself that your cat is relaxed, happy, and well cared for \u2014 no matter where in the world you happen to be.", "type": "text", "version": 1 }
+        ],
+        "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": ""
+      },
+      { "type": "horizontalrule", "version": 1 },
+      {
+        "children": [
+          { "detail": 0, "format": 1, "mode": "normal", "style": "", "text": "100% PURRFECT OR YOUR MONEY BACK GUARANTEE", "type": "text", "version": 1 }
+        ],
+        "direction": "ltr", "format": "", "indent": 0, "tag": "h2", "type": "heading", "version": 1
+      },
+      {
+        "children": [
+          { "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "Every stay at Cats Luv Us is backed by our 100% Satisfaction Guarantee. If for any reason your experience does not meet your expectations, we will make it right \u2014 no questions asked. Our staff is always just a phone call away before, during, and after your cat\u2019s stay to address any questions or concerns you may have. Your peace of mind matters to us as much as your cat\u2019s comfort does.", "type": "text", "version": 1 }
+        ],
+        "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": ""
+      },
+      { "type": "horizontalrule", "version": 1 },
+      {
+        "children": [
+          { "detail": 0, "format": 1, "mode": "normal", "style": "", "text": "WHAT OUR CUSTOMERS ARE SAYING", "type": "text", "version": 1 }
+        ],
+        "direction": "ltr", "format": "", "indent": 0, "tag": "h2", "type": "heading", "version": 1
+      },
+      {
+        "children": [
+          { "detail": 0, "format": 1, "mode": "normal", "style": "", "text": "4.5 out of 5.0", "type": "text", "version": 1 },
+          { "detail": 0, "format": 0, "mode": "normal", "style": "", "text": " \u2014 Based on 120 Verified Yelp Reviews", "type": "text", "version": 1 }
+        ],
+        "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": ""
+      },
+      { "children": [], "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": "" },
+      {
+        "children": [
+          { "detail": 0, "format": 2, "mode": "normal", "style": "", "text": "\u201cWow, you are amazing! Thank you for taking such great care of Smokey. What a wonderful experience. I loved receiving updates on Smokey while we were on vacation. We will definitely be back!\u201d", "type": "text", "version": 1 }
+        ],
+        "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": ""
+      },
+      {
+        "children": [
+          { "detail": 0, "format": 1, "mode": "normal", "style": "", "text": "\u2014 Deborah R.", "type": "text", "version": 1 }
+        ],
+        "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": ""
+      },
+      { "children": [], "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": "" },
+      {
+        "children": [
+          { "detail": 0, "format": 2, "mode": "normal", "style": "", "text": "\u201cThe best. Absolutely the best. I had a groomer come to my house who put a muzzle on my cat unnecessarily, and I was so upset I went searching for someone better. I found Cats Luv Us and I am never going back.\u201d", "type": "text", "version": 1 }
+        ],
+        "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": ""
+      },
+      {
+        "children": [
+          { "detail": 0, "format": 1, "mode": "normal", "style": "", "text": "\u2014 Susan G.", "type": "text", "version": 1 }
+        ],
+        "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": ""
+      },
+      { "type": "horizontalrule", "version": 1 },
+      {
+        "children": [
+          { "detail": 0, "format": 1, "mode": "normal", "style": "", "text": "WE ARE HERE WHEN YOU NEED US MOST", "type": "text", "version": 1 }
+        ],
+        "direction": "ltr", "format": "", "indent": 0, "tag": "h2", "type": "heading", "version": 1
+      },
+      {
+        "children": [
+          { "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "Life is unpredictable. Cats Luv Us is here to provide a safe, reliable solution whenever circumstances require professional cat care, including when you are:", "type": "text", "version": 1 }
+        ],
+        "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": ""
+      },
+      {
+        "children": [
+          { "children": [{ "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "Traveling out of town for work or vacation", "type": "text", "version": 1 }], "direction": "ltr", "format": "", "indent": 0, "type": "listitem", "value": 1, "version": 1 },
+          { "children": [{ "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "Relocating, remodeling, or dealing with construction at home", "type": "text", "version": 1 }], "direction": "ltr", "format": "", "indent": 0, "type": "listitem", "value": 2, "version": 1 },
+          { "children": [{ "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "Having your home tented for termites", "type": "text", "version": 1 }], "direction": "ltr", "format": "", "indent": 0, "type": "listitem", "value": 3, "version": 1 },
+          { "children": [{ "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "Visiting Orange County and unable to leave your cat behind", "type": "text", "version": 1 }], "direction": "ltr", "format": "", "indent": 0, "type": "listitem", "value": 4, "version": 1 },
+          { "children": [{ "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "Managing a cat that requires daily medications such as insulin or subcutaneous fluids", "type": "text", "version": 1 }], "direction": "ltr", "format": "", "indent": 0, "type": "listitem", "value": 5, "version": 1 },
+          { "children": [{ "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "Caring for an anxious, difficult, or medically complex cat", "type": "text", "version": 1 }], "direction": "ltr", "format": "", "indent": 0, "type": "listitem", "value": 6, "version": 1 },
+          { "children": [{ "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "Protecting your privacy and valuables while service professionals are in your home", "type": "text", "version": 1 }], "direction": "ltr", "format": "", "indent": 0, "type": "listitem", "value": 7, "version": 1 },
+          { "children": [{ "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "In need of expert grooming, a nail trim, or a full spa day for your cat", "type": "text", "version": 1 }], "direction": "ltr", "format": "", "indent": 0, "type": "listitem", "value": 8, "version": 1 }
+        ],
+        "direction": "ltr", "format": "", "indent": 0, "listType": "bullet", "start": 1, "tag": "ul", "type": "list", "version": 1
+      },
+      { "type": "horizontalrule", "version": 1 },
+      {
+        "children": [
+          { "detail": 0, "format": 1, "mode": "normal", "style": "", "text": "SPECIALIZED MEDICAL CARE & LONG-TERM BOARDING", "type": "text", "version": 1 }
+        ],
+        "direction": "ltr", "format": "", "indent": 0, "tag": "h2", "type": "heading", "version": 1
+      },
+      {
+        "children": [
+          { "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "Cats with medical needs deserve attentive, knowledgeable care \u2014 and that is precisely what we provide. Our staff has extensive hands-on experience administering a full spectrum of treatments and medications, including:", "type": "text", "version": 1 }
+        ],
+        "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": ""
+      },
+      {
+        "children": [
+          { "children": [{ "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "Insulin injections", "type": "text", "version": 1 }], "direction": "ltr", "format": "", "indent": 0, "type": "listitem", "value": 1, "version": 1 },
+          { "children": [{ "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "Subcutaneous fluid therapy", "type": "text", "version": 1 }], "direction": "ltr", "format": "", "indent": 0, "type": "listitem", "value": 2, "version": 1 },
+          { "children": [{ "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "Inhaler and respiratory support", "type": "text", "version": 1 }], "direction": "ltr", "format": "", "indent": 0, "type": "listitem", "value": 3, "version": 1 },
+          { "children": [{ "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "Oral medications", "type": "text", "version": 1 }], "direction": "ltr", "format": "", "indent": 0, "type": "listitem", "value": 4, "version": 1 },
+          { "children": [{ "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "Liquid medications", "type": "text", "version": 1 }], "direction": "ltr", "format": "", "indent": 0, "type": "listitem", "value": 5, "version": 1 }
+        ],
+        "direction": "ltr", "format": "", "indent": 0, "listType": "bullet", "start": 1, "tag": "ul", "type": "list", "version": 1
+      },
+      { "children": [], "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": "" },
+      {
+        "children": [
+          { "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "We also have an on-call veterinarian available to ensure your cat has access to professional medical support whenever it is needed \u2014 giving you complete peace of mind throughout your cat\u2019s entire stay.", "type": "text", "version": 1 }
+        ],
+        "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": ""
+      },
+      { "children": [], "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": "" },
+      {
+        "children": [
+          { "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "Simply provide us with your cat\u2019s instructions and medical history at check-in and we will execute their care routine with the same precision and consistency you provide at home. Not a single dose will be missed.", "type": "text", "version": 1 }
+        ],
+        "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": ""
+      },
+      { "children": [], "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": "" },
+      {
+        "children": [
+          { "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "For cats requiring long-term boarding due to an extended trip, relocation, or home renovation, we offer a stable, nurturing environment with the close personal attention that long stays require. Senior cats and cats with complex needs are always welcome \u2014 and always in exceptionally capable hands.", "type": "text", "version": 1 }
+        ],
+        "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": ""
+      },
+      { "type": "horizontalrule", "version": 1 },
+      {
+        "children": [
+          { "detail": 0, "format": 1, "mode": "normal", "style": "", "text": "OUR SERVICES", "type": "text", "version": 1 }
+        ],
+        "direction": "ltr", "format": "", "indent": 0, "tag": "h2", "type": "heading", "version": 1
+      },
+      {
+        "children": [{ "detail": 0, "format": 1, "mode": "normal", "style": "", "text": "CAT BOARDING", "type": "text", "version": 1 }],
+        "direction": "ltr", "format": "", "indent": 0, "tag": "h3", "type": "heading", "version": 1
+      },
+      {
+        "children": [{ "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "Our private boarding suites provide a safe, calm, and comfortable home away from home for your cat. We follow your cat\u2019s exact feeding schedule \u2014 just bring their regular food \u2014 and provide close personal attention throughout their stay. Suites can be doubled or tripled for multi-cat families or cats that benefit from extra space.", "type": "text", "version": 1 }],
+        "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": ""
+      },
+      { "children": [], "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": "" },
+      {
+        "children": [{ "detail": 0, "format": 1, "mode": "normal", "style": "", "text": "CAT DAY CARE", "type": "text", "version": 1 }],
+        "direction": "ltr", "format": "", "indent": 0, "tag": "h3", "type": "heading", "version": 1
+      },
+      {
+        "children": [{ "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "Need a safe and stimulating environment for your cat during the day? Our cat day care service keeps your feline companion entertained and cared for while you handle work or daytime commitments.", "type": "text", "version": 1 }],
+        "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": ""
+      },
+      { "children": [], "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": "" },
+      {
+        "children": [{ "detail": 0, "format": 1, "mode": "normal", "style": "", "text": "LONG-TERM BOARDING", "type": "text", "version": 1 }],
+        "direction": "ltr", "format": "", "indent": 0, "tag": "h3", "type": "heading", "version": 1
+      },
+      {
+        "children": [{ "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "Whether you are relocating, renovating, or embarking on an extended trip, we provide the consistency, stability, and individualized care that long-term guests require.", "type": "text", "version": 1 }],
+        "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": ""
+      },
+      { "children": [], "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": "" },
+      {
+        "children": [{ "detail": 0, "format": 1, "mode": "normal", "style": "", "text": "MEDICATION ADMINISTRATION", "type": "text", "version": 1 }],
+        "direction": "ltr", "format": "", "indent": 0, "tag": "h3", "type": "heading", "version": 1
+      },
+      {
+        "children": [{ "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "From insulin and subcutaneous fluids to inhalers and oral medications, our trained staff handles your cat\u2019s full medical routine with care, accuracy, and compassion.", "type": "text", "version": 1 }],
+        "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": ""
+      },
+      { "children": [], "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": "" },
+      {
+        "children": [{ "detail": 0, "format": 1, "mode": "normal", "style": "", "text": "ON-CALL VETERINARIAN", "type": "text", "version": 1 }],
+        "direction": "ltr", "format": "", "indent": 0, "tag": "h3", "type": "heading", "version": 1
+      },
+      {
+        "children": [{ "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "For your complete peace of mind, we have an on-call veterinarian available throughout your cat\u2019s stay. In the event of any health concern, professional veterinary guidance is never far away.", "type": "text", "version": 1 }],
+        "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": ""
+      },
+      { "children": [], "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": "" },
+      {
+        "children": [{ "detail": 0, "format": 1, "mode": "normal", "style": "", "text": "VETERINARY EMERGENCY PROTOCOL", "type": "text", "version": 1 }],
+        "direction": "ltr", "format": "", "indent": 0, "tag": "h3", "type": "heading", "version": 1
+      },
+      {
+        "children": [{ "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "In the unlikely event that your cat becomes ill during their stay, we will contact you and your veterinarian immediately using the emergency information provided at check-in. Your cat\u2019s health and safety are our absolute top priority at every moment.", "type": "text", "version": 1 }],
+        "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": ""
+      },
+      { "children": [], "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": "" },
+      {
+        "children": [{ "detail": 0, "format": 1, "mode": "normal", "style": "", "text": "ADJOINING SUITE OPTIONS", "type": "text", "version": 1 }],
+        "direction": "ltr", "format": "", "indent": 0, "tag": "h3", "type": "heading", "version": 1
+      },
+      {
+        "children": [{ "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "For multi-cat households or cats that simply need more room, we offer secure, private suites in configurations of one, two, or three adjoining rooms. All suites prevent contact between unrelated cat guests.", "type": "text", "version": 1 }],
+        "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": ""
+      },
+      { "children": [], "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": "" },
+      {
+        "children": [{ "detail": 0, "format": 1, "mode": "normal", "style": "", "text": "VACCINATION REQUIREMENTS", "type": "text", "version": 1 }],
+        "direction": "ltr", "format": "", "indent": 0, "tag": "h3", "type": "heading", "version": 1
+      },
+      {
+        "children": [{ "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "To protect the health of every guest in our care, all cats must have a current FRCP vaccination \u2014 covering feline rhinotracheitis, calici, and panleukopenia \u2014 administered within the past three years. Proof of vaccination is required at check-in.", "type": "text", "version": 1 }],
+        "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": ""
+      },
+      { "children": [], "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": "" },
+      {
+        "children": [{ "detail": 0, "format": 1, "mode": "normal", "style": "", "text": "CAT GROOMING", "type": "text", "version": 1 }],
+        "direction": "ltr", "format": "", "indent": 0, "tag": "h3", "type": "heading", "version": 1
+      },
+      {
+        "children": [{ "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "Our grooming team works exclusively with cats \u2014 and the dog-free environment of our facility means that even the most sensitive and anxious cats remain calm and relaxed throughout their entire grooming appointment. Our professional cat grooming services include:", "type": "text", "version": 1 }],
+        "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": ""
+      },
+      {
+        "children": [
+          { "children": [{ "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "Lion Cuts", "type": "text", "version": 1 }], "direction": "ltr", "format": "", "indent": 0, "type": "listitem", "value": 1, "version": 1 },
+          { "children": [{ "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "De-shedding treatments", "type": "text", "version": 1 }], "direction": "ltr", "format": "", "indent": 0, "type": "listitem", "value": 2, "version": 1 },
+          { "children": [{ "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "De-matting", "type": "text", "version": 1 }], "direction": "ltr", "format": "", "indent": 0, "type": "listitem", "value": 3, "version": 1 },
+          { "children": [{ "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "Waterless baths \u2014 a gentle, low-stress alternative for cats who dislike traditional bathing", "type": "text", "version": 1 }], "direction": "ltr", "format": "", "indent": 0, "type": "listitem", "value": 4, "version": 1 },
+          { "children": [{ "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "Precision nail trims", "type": "text", "version": 1 }], "direction": "ltr", "format": "", "indent": 0, "type": "listitem", "value": 5, "version": 1 },
+          { "children": [{ "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "Nail caps \u2014 a humane, safe, and effective alternative to declawing", "type": "text", "version": 1 }], "direction": "ltr", "format": "", "indent": 0, "type": "listitem", "value": 6, "version": 1 },
+          { "children": [{ "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "Calming shampoos", "type": "text", "version": 1 }], "direction": "ltr", "format": "", "indent": 0, "type": "listitem", "value": 7, "version": 1 },
+          { "children": [{ "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "Flea treatments", "type": "text", "version": 1 }], "direction": "ltr", "format": "", "indent": 0, "type": "listitem", "value": 8, "version": 1 }
+        ],
+        "direction": "ltr", "format": "", "indent": 0, "listType": "bullet", "start": 1, "tag": "ul", "type": "list", "version": 1
+      },
+      { "children": [], "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": "" },
+      {
+        "children": [{ "detail": 0, "format": 1, "mode": "normal", "style": "", "text": "Click here to book a cat grooming appointment.", "type": "text", "version": 1 }],
+        "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": ""
+      },
+      { "type": "horizontalrule", "version": 1 },
+      {
+        "children": [{ "detail": 0, "format": 1, "mode": "normal", "style": "", "text": "WHY CAT OWNERS AROUND THE WORLD CHOOSE CATS LUV US", "type": "text", "version": 1 }],
+        "direction": "ltr", "format": "", "indent": 0, "tag": "h2", "type": "heading", "version": 1
+      },
+      {
+        "children": [{ "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "The cat boarding industry is full of facilities that treat feline guests as an afterthought. Cats Luv Us was built from the ground up with one animal in mind \u2014 the cat \u2014 and that singular focus is evident in everything we do.", "type": "text", "version": 1 }],
+        "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": ""
+      },
+      { "children": [], "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": "" },
+      {
+        "children": [{ "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "Since 1996, we have welcomed cats from across Orange County and from around the world, earning a reputation for excellence, reliability, and genuine compassion. Our clients return year after year not simply because we provide a service, but because they trust us completely with the animals they love. That trust is something we work every single day to deserve.", "type": "text", "version": 1 }],
+        "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": ""
+      },
+      { "children": [], "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": "" },
+      {
+        "children": [
+          { "children": [{ "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "Cat-only facility, 100% dog-free since 1996", "type": "text", "version": 1 }], "direction": "ltr", "format": "", "indent": 0, "type": "listitem", "value": 1, "version": 1 },
+          { "children": [{ "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "Over 30 years of experience in professional cat care", "type": "text", "version": 1 }], "direction": "ltr", "format": "", "indent": 0, "type": "listitem", "value": 2, "version": 1 },
+          { "children": [{ "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "Private luxury suites in single, double, and family sizes", "type": "text", "version": 1 }], "direction": "ltr", "format": "", "indent": 0, "type": "listitem", "value": 3, "version": 1 },
+          { "children": [{ "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "Suite dimensions from 16 to 48 cubic feet", "type": "text", "version": 1 }], "direction": "ltr", "format": "", "indent": 0, "type": "listitem", "value": 4, "version": 1 },
+          { "children": [{ "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "Three large dedicated play areas for exercise and exploration", "type": "text", "version": 1 }], "direction": "ltr", "format": "", "indent": 0, "type": "listitem", "value": 5, "version": 1 },
+          { "children": [{ "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "Connecting family suites for bonded cats and multi-cat households", "type": "text", "version": 1 }], "direction": "ltr", "format": "", "indent": 0, "type": "listitem", "value": 6, "version": 1 },
+          { "children": [{ "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "Full medication administration including insulin, subcutaneous fluids, and inhalers", "type": "text", "version": 1 }], "direction": "ltr", "format": "", "indent": 0, "type": "listitem", "value": 7, "version": 1 },
+          { "children": [{ "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "On-call veterinarian for complete peace of mind", "type": "text", "version": 1 }], "direction": "ltr", "format": "", "indent": 0, "type": "listitem", "value": 8, "version": 1 },
+          { "children": [{ "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "Cat TV with live parakeet entertainment throughout the day", "type": "text", "version": 1 }], "direction": "ltr", "format": "", "indent": 0, "type": "listitem", "value": 9, "version": 1 },
+          { "children": [{ "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "Daily photo and video updates for every owner", "type": "text", "version": 1 }], "direction": "ltr", "format": "", "indent": 0, "type": "listitem", "value": 10, "version": 1 },
+          { "children": [{ "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "Long-term boarding available for extended stays", "type": "text", "version": 1 }], "direction": "ltr", "format": "", "indent": 0, "type": "listitem", "value": 11, "version": 1 },
+          { "children": [{ "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "Professional on-site cat grooming", "type": "text", "version": 1 }], "direction": "ltr", "format": "", "indent": 0, "type": "listitem", "value": 12, "version": 1 },
+          { "children": [{ "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "Walk-ins welcome", "type": "text", "version": 1 }], "direction": "ltr", "format": "", "indent": 0, "type": "listitem", "value": 13, "version": 1 },
+          { "children": [{ "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "Woman owned and operated", "type": "text", "version": 1 }], "direction": "ltr", "format": "", "indent": 0, "type": "listitem", "value": 14, "version": 1 },
+          { "children": [{ "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "Budget friendly rates", "type": "text", "version": 1 }], "direction": "ltr", "format": "", "indent": 0, "type": "listitem", "value": 15, "version": 1 },
+          { "children": [{ "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "New customers receive their first night free", "type": "text", "version": 1 }], "direction": "ltr", "format": "", "indent": 0, "type": "listitem", "value": 16, "version": 1 }
+        ],
+        "direction": "ltr", "format": "", "indent": 0, "listType": "bullet", "start": 1, "tag": "ul", "type": "list", "version": 1
+      },
+      { "type": "horizontalrule", "version": 1 },
+      {
+        "children": [{ "detail": 0, "format": 1, "mode": "normal", "style": "", "text": "HOW IT WORKS", "type": "text", "version": 1 }],
+        "direction": "ltr", "format": "", "indent": 0, "tag": "h2", "type": "heading", "version": 1
+      },
+      {
+        "children": [{ "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "Getting started at Cats Luv Us is simple. Here is what to expect.", "type": "text", "version": 1 }],
+        "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": ""
+      },
+      { "children": [], "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": "" },
+      {
+        "children": [{ "detail": 0, "format": 1, "mode": "normal", "style": "", "text": "1. BOOK YOUR DATES", "type": "text", "version": 1 }],
+        "direction": "ltr", "format": "", "indent": 0, "tag": "h3", "type": "heading", "version": 1
+      },
+      {
+        "children": [{ "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "Contact us to check availability, ask about our amenities, and secure your cat\u2019s reservation. We recommend booking in advance, particularly around holidays and peak travel periods when suites fill quickly.", "type": "text", "version": 1 }],
+        "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": ""
+      },
+      { "children": [], "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": "" },
+      {
+        "children": [{ "detail": 0, "format": 1, "mode": "normal", "style": "", "text": "2. ARRIVAL & CHECK-IN", "type": "text", "version": 1 }],
+        "direction": "ltr", "format": "", "indent": 0, "tag": "h3", "type": "heading", "version": 1
+      },
+      {
+        "children": [{ "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "When you arrive, a member of our team will welcome you and your cat and walk you through the brief check-in process. You will provide your cat\u2019s feeding schedule, vaccination records, emergency contact information, and any medication or special care instructions.", "type": "text", "version": 1 }],
+        "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": ""
+      },
+      { "children": [], "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": "" },
+      {
+        "children": [{ "detail": 0, "format": 1, "mode": "normal", "style": "", "text": "3. YOUR CAT\u2019S PERSONAL TOUR", "type": "text", "version": 1 }],
+        "direction": "ltr", "format": "", "indent": 0, "tag": "h3", "type": "heading", "version": 1
+      },
+      {
+        "children": [{ "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "We will personally show you your cat\u2019s private suite, walk you through our facility, and explain in detail exactly how we will care for your cat during their stay. We encourage you to ask questions, look around, and leave feeling completely at ease.", "type": "text", "version": 1 }],
+        "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": ""
+      },
+      { "type": "horizontalrule", "version": 1 },
+      {
+        "children": [{ "detail": 0, "format": 1, "mode": "normal", "style": "", "text": "SEE IT FOR YOURSELF \u2014 PERSONAL TOURS ALWAYS WELCOME", "type": "text", "version": 1 }],
+        "direction": "ltr", "format": "", "indent": 0, "tag": "h2", "type": "heading", "version": 1
+      },
+      {
+        "children": [{ "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "We believe the best way to understand what makes Cats Luv Us special is to come and see it for yourself. We warmly invite prospective clients to stop by for a personal tour of our facility before booking. Call us today to schedule a visit.", "type": "text", "version": 1 }],
+        "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": ""
+      },
+      { "children": [], "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": "" },
+      {
+        "children": [{ "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "When you walk through our doors, you will see firsthand the private suites, the three large play areas, the Cat TV entertainment, and the team of caring professionals who make Cats Luv Us the most trusted cat boarding hotel in South Orange County. You will leave with the peace of mind that comes from knowing exactly where your cat will be \u2014 and exactly how well they will be treated.", "type": "text", "version": 1 }],
+        "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": ""
+      },
+      { "type": "horizontalrule", "version": 1 },
+      {
+        "children": [{ "detail": 0, "format": 1, "mode": "normal", "style": "", "text": "TRUSTED FOR OVER 30 YEARS", "type": "text", "version": 1 }],
+        "direction": "ltr", "format": "", "indent": 0, "tag": "h2", "type": "heading", "version": 1
+      },
+      {
+        "children": [{ "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "We have been in business since 1996. In that time, we have cared for thousands of cats, earned hundreds of five-star reviews, and built relationships with Orange County cat owners that span decades. Our five-star rated cat caretakers are passionate about what they do, deeply experienced in feline care, and genuinely devoted to the well-being of every animal in their charge.", "type": "text", "version": 1 }],
+        "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": ""
+      },
+      { "children": [], "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": "" },
+      {
+        "children": [{ "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "When you board your cat at Cats Luv Us, you are not handing them over to a stranger. You are entrusting them to a team that has been doing this for over 30 years \u2014 and that takes that responsibility seriously every single day.", "type": "text", "version": 1 }],
+        "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": ""
+      },
+      { "type": "horizontalrule", "version": 1 },
+      {
+        "children": [{ "detail": 0, "format": 1, "mode": "normal", "style": "", "text": "HAVE QUESTIONS? WE WOULD LOVE TO HEAR FROM YOU", "type": "text", "version": 1 }],
+        "direction": "ltr", "format": "", "indent": 0, "tag": "h2", "type": "heading", "version": 1
+      },
+      {
+        "children": [{ "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "Whether you have questions about boarding availability, grooming services, medication administration, long-term stays, or anything else, we are here to help. Fill out the form below and we will respond within 24 hours \u2014 or call us directly and we will be happy to speak with you right away.", "type": "text", "version": 1 }],
+        "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": ""
+      },
+      { "children": [], "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": "" },
+      {
+        "children": [{ "detail": 0, "format": 1, "mode": "normal", "style": "", "text": "(949) 582-1732", "type": "text", "version": 1 }],
+        "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": ""
+      },
+      { "type": "horizontalrule", "version": 1 },
+      {
+        "children": [{ "detail": 0, "format": 1, "mode": "normal", "style": "", "text": "HOURS OF OPERATION", "type": "text", "version": 1 }],
+        "direction": "ltr", "format": "", "indent": 0, "tag": "h2", "type": "heading", "version": 1
+      },
+      {
+        "children": [
+          { "children": [{ "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "Monday \u2013 Friday: ", "type": "text", "version": 1 }, { "detail": 0, "format": 1, "mode": "normal", "style": "", "text": "9:00 AM \u2013 5:00 PM", "type": "text", "version": 1 }], "direction": "ltr", "format": "", "indent": 0, "type": "listitem", "value": 1, "version": 1 },
+          { "children": [{ "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "Saturday: ", "type": "text", "version": 1 }, { "detail": 0, "format": 1, "mode": "normal", "style": "", "text": "9:00 AM \u2013 12:00 PM", "type": "text", "version": 1 }], "direction": "ltr", "format": "", "indent": 0, "type": "listitem", "value": 2, "version": 1 },
+          { "children": [{ "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "Sunday: ", "type": "text", "version": 1 }, { "detail": 0, "format": 1, "mode": "normal", "style": "", "text": "Closed", "type": "text", "version": 1 }], "direction": "ltr", "format": "", "indent": 0, "type": "listitem", "value": 3, "version": 1 }
+        ],
+        "direction": "ltr", "format": "", "indent": 0, "listType": "bullet", "start": 1, "tag": "ul", "type": "list", "version": 1
+      },
+      { "type": "horizontalrule", "version": 1 },
+      {
+        "children": [{ "detail": 0, "format": 1, "mode": "normal", "style": "", "text": "Cats Luv Us Boarding Hotel & Grooming", "type": "text", "version": 1 }],
+        "direction": "ltr", "format": "", "indent": 0, "tag": "h3", "type": "heading", "version": 1
+      },
+      {
+        "children": [{ "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "27601 Forbes Rd, Suite 25", "type": "text", "version": 1 }],
+        "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": ""
+      },
+      {
+        "children": [{ "detail": 0, "format": 0, "mode": "normal", "style": "", "text": "Laguna Niguel, CA 92677", "type": "text", "version": 1 }],
+        "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": ""
+      },
+      {
+        "children": [{ "detail": 0, "format": 1, "mode": "normal", "style": "", "text": "(949) 582-1732", "type": "text", "version": 1 }],
+        "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": ""
+      },
+      { "children": [], "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": "" },
+      {
+        "children": [{ "detail": 0, "format": 2, "mode": "normal", "style": "", "text": "Located in the Three Flags Center near Costco on Cabot Road at Crown Valley", "type": "text", "version": 1 }],
+        "direction": "ltr", "format": "", "indent": 0, "type": "paragraph", "version": 1, "textFormat": 0, "textStyle": ""
+      }
+    ],
+    "direction": "ltr",
+    "format": "",
+    "indent": 0,
+    "type": "root",
+    "version": 1
+  }
+}
